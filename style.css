@@ -1,0 +1,549 @@
+* {
+  padding: 0px;
+}
+body {
+  position: relative;
+  background-color: #02051f;
+  font-size: 20px;
+  margin: 0;
+  min-height: 100vh;
+
+
+}
+
+#image {
+  width: 88px;
+}
+
+.navbar {
+  display: flex;
+  backdrop-filter: blur(300px);
+  justify-content: space-between;
+  gap: 800px;
+  align-items: center;
+  position: fixed;
+}
+.logo {
+  display: flex;
+}
+.items a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: white;
+  
+}
+
+a:hover{
+    color: #f4ab22;
+    transition: 0.2s ease;
+}
+
+a:active{
+    color: rgb(255, 255, 255);
+    transition: 0.2s ease;
+}
+
+#signup-btn{
+  margin: 0px;
+}
+
+#btn{
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 8px;
+
+}
+#btn:hover{
+    background-color: #f4ab22;
+    transition: 0.2s ease;
+}
+
+#btn:active{
+    color: black;
+}
+
+.text-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#heading{
+ 
+ color: white;
+ font-size: 75px;
+ color: #f4ab22;
+ margin-top: 170px;
+
+}
+@keyframes glowShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+#cllg-name{
+  color: white;
+}
+#cllg-name:hover{
+  color: #f4ab22;
+  transition: 0.2s ease;
+}
+
+#cllg-name:active{
+  color: white;
+  transition: 0.2s ease;
+}
+
+#Imperial{
+  display: flex;
+  justify-content: center;
+  font-size: 59px;
+  background: linear-gradient(270deg, #000203, #cfcfcf,  #80a1c6, #000000, #152f64);
+  background-size: 200% auto;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: gradientShift 3s linear infinite;
+}
+
+.text2{
+  display: flex;
+  color: lightblue;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.text2 p{
+  width: 800px;
+  font-size: 30px;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.buttons button{
+  font-size: 15px;
+  padding: 23px;
+  padding-bottom: 35px;
+  border-radius: 20px;
+  height: 20px;
+  background-color: #f4ab22;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.buttons button:hover{
+  background-color: hsla(202, 55%, 56%, 0.607);
+  transition: 0.2s ease;
+  color: rgb(255, 244, 244);
+}
+
+.buttons button:active{
+  background: #f4ab22;
+  color: black;
+  transition: 0.2s ease;
+}
+
+#ruler{
+  margin: 80px;
+}
+
+#dept-text{
+  font-size: 69px;
+  color: white;
+  text-align: center;
+}
+
+.fa-bars {
+  margin: 30px;
+  color: white;
+  font-size: 28px;  /* optional, adjust size if needed */
+  cursor: pointer;
+}
+
+.fa-bars:hover {
+  color: #f4ab22; /* gold hover effect to match theme */
+  transition: 0.2s ease;
+}
+.dept{
+  padding-top: 22px;
+  margin-top: 120px;
+}
+
+
+#department{
+  font-weight: bold;
+  color: #f4ab23;
+}
+.whole-dept{
+  
+ background-color: #152f64;
+ height: 1150px;
+}
+.dept-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.bca{
+  width: 530px;
+  height: 750px;
+  background-color: #1B263B;
+  border-radius: 25px;
+}
+
+.bba{
+  width: 530px;
+  height: 750px;
+  background-color: #1B263B;
+  border-radius: 25px;
+}
+
+#heading-bca{
+  margin: 10px;
+  margin-top: 20px;
+  color: white;
+}
+
+#heading-bba{
+  margin: 10px;
+  margin-top: 20px;
+  color: white;
+}
+
+#heading-bca-para{
+  color: rgb(211, 196, 196);
+  margin: 10px;
+  margin-top: 20px;
+}
+
+#heading-bba-para{
+  color: rgb(211, 196, 196);
+  margin: 10px;
+  margin-top: 20px;
+}
+
+
+.bba-items{
+  margin: 30px;
+  font-size: 24px;
+  color: rgb(236, 229, 229);
+}
+
+.bca-items{
+  margin: 30px;
+  font-size: 24px;
+  color: rgb(236, 229, 229);
+}
+
+.explore{
+  padding: 18px;
+  padding-bottom: 29px;
+  border-radius: 20px;
+  height: 20px;
+  background-color: #f4ab22;
+  font-weight: bold;  
+}
+
+.explore:hover{
+  background-color: hsla(202, 55%, 56%, 0.607);
+  transition: 0.2s ease;
+  color: rgb(255, 244, 244);
+}
+
+.explore:active{
+  background: #f4ab22;
+  color: black;
+  transition: 0.2s ease;
+}
+
+.btn-div{
+  margin: 20px;
+}
+
+.campus{
+  margin-top: 0px;
+  background-color: #070e53;
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+
+#campus-image{
+  background-image: url("campus-image.jpg");
+  border-radius: 20px;
+  background-size: cover;
+  margin: 69px;
+  width: 1300px;
+  height: 440px;
+  background-color: #ffffff;
+}
+
+#campus-image:hover{
+  width: 1340px;
+  height: 460px;
+  transition: 0.2s ease-in-out;
+}
+
+#campus-heading{
+  margin-top: 60px;
+  color: white;
+  font-size: 69px;
+}
+
+#campus-para{
+  font-size: 30px;
+  color: rgb(211, 192, 192);
+}
+
+#unique2{
+  color: #f4ab22;
+}
+
+.campus-items{
+  margin-top: 40px;
+  color: white;
+  font-size: 20px;
+}
+
+.campus-items > li{
+  font-size: 25px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+#campus-btn{
+  font-size: 15px;
+  padding: 23px;
+  padding-bottom: 35px;
+  border-radius: 20px;
+  height: 20px;
+  background-color: #f4ab22;
+  font-weight: bold;
+}
+
+#campus-btn:hover{
+  background-color: hsla(202, 55%, 56%, 0.607);
+  transition: 0.2s ease;
+  color: rgb(255, 244, 244);
+}
+
+#campus-btn:active{
+  background-color: #f4ab22;
+  transition: 0.2s ease;
+  color: rgb(0, 0, 0);
+}
+
+#journey{
+  width: 100%;
+  height: 460px;
+  background-color: #152f64;
+  padding-top: 140px;
+  text-align: center;
+}
+
+#journey-heading{
+  font-size: 69px;
+  margin-top: 0px;
+  color: white;
+}
+
+#your-journey{
+  color: #f4ab22;
+}
+
+#journey-para{
+  width: 500px;
+  margin-left: 520px;
+  text-align: center;
+  color: white;
+}
+
+#apply-btn{
+  font-size: 15px;
+  padding: 23px;
+  padding-bottom: 35px;
+  border-radius: 20px;
+  height: 20px;
+  background-color: #f4ab22;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#apply-btn:hover{
+  background-color: hsla(202, 55%, 56%, 0.607);
+  transition: 0.2s ease;
+  color: rgb(255, 244, 244);
+}
+
+#contact-btn{
+  font-size: 15px;
+  padding: 23px;
+  padding-bottom: 35px;
+  border-radius: 20px;
+  height: 20px;
+  background-color: #f4ab22;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+#contact-btn:hover{
+  background-color: hsla(202, 55%, 56%, 0.607);
+  transition: 0.2s ease;
+  color: rgb(255, 244, 244);
+}
+
+.footer{
+  width: 100%;
+  height: 340px;
+  background-color: #02051f;
+  display: flex;
+}
+
+.imperial-info{
+  width: 300px;
+  height: 350px;
+  color: white;
+  font-size: 10px;
+}
+
+#imperial-footer{
+  margin: 0px;
+  padding-top: 50px;
+  text-align: center;
+  color: #f4ab22;
+}
+
+#image-footer{
+  margin-top: 35px;
+  width: 88px;
+  height: 55px;
+}
+
+.footer1-para-div{
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  
+}
+.imageAndHeading{
+  display: flex;
+  color: white;
+}
+
+#para-footer1{
+  text-align: center;
+  margin-left: 10px;
+  width: 290px;
+  color: white;
+  font-size: 14px;
+}
+
+.footer2{
+  width: 25%;
+  height: 400px;
+  color: white;
+  margin-left: 130px;
+}
+
+#ql{
+  margin-left: 40px;
+  padding-top: 34px;
+  font-size: 20px;
+  color: #f4ab22;
+}
+
+.footer2-items{
+  margin-left: 40px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer3{
+  width: 25%;
+  height: 400px;
+  margin-left: 130px;
+}
+
+#contact-no{
+  padding-top: 34px;
+  color: white;
+  font-size: 20px;
+  color: #f4ab22;
+}
+
+#address{
+  font-size: 16px;
+  color: white;
+}
+
+#phone{
+  font-size: 16px;
+  color: white;
+}
+
+#email{
+  font-size: 16px;
+  color: white;
+}
+
+.footer4{
+
+  width: 25%;
+  height: 400px;
+  color: white;
+  margin-left: 230px;
+}
+
+#follow-us-heading{
+  padding-top: 34px;
+  font-size: 20px;
+  color: #f4ab22;
+  
+}
+
+.social-media-btns{
+  gap: 10px;
+  display: flex;
+}
+
+.social{
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.copyright{
+  height: 50px;
+  background-color: #02051f;
+}
+
+#copy-para{
+  margin-top: 0px;
+  color: white;
+  background-color: #02051f;
+  text-align: center;
+}
+
+.fa-brands{
+  
+  color: #f4ab22;
+}
+
+.fa-solid{
+  color: #f4ab22;
+}
