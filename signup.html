@@ -13,15 +13,32 @@
 
   <div class="signup">
     <div id="heading">
-      <p>Create Your <span id="acc">Account</span></p>
+      <p><span id="action-text">Create Your</span> <span id="acc">Account</span></p>
     </div>
 
     <div id="text">
-      <p>Join Imperial College community today</p>
+      <p id="sub-text">Join Imperial College community today</p>
     </div>
 
     <div>
-      <form class="form">
+      <!-- Login Form -->
+      <form class="form hidden" id="login-form">
+        <label>Email</label>
+        <input type="email" placeholder="your.email@example.com" required>
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter your password" required>
+
+        <button type="submit" class="submit-button">Login</button>
+
+        <div class="link">
+          Don't have an account?
+          <a href="#" id="signup-toggle">Sign Up</a>
+        </div>
+      </form>
+
+      <!-- Signup Form -->
+      <form class="form" id="signup-form">
         <label>Full Name</label>
         <input type="text" placeholder="Enter your full name" required>
 
@@ -41,7 +58,7 @@
 
         <div class="link">
           Already have an account?
-          <a href="#">Sign In</a>
+          <a href="#" id="login-toggle">Sign In</a>
         </div>
       </form>
     </div>
